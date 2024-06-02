@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: shiro-boot-app
+  profiles:
+    active: dev
+  thymeleaf:
+    cache: false
+    mode: HTML
+    encoding: UTF-8

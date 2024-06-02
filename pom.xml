@@ -17,6 +17,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>shiro-ini-sample</module>
+        <module>shiro-boot-sample</module>
+        <module>shiro-authentication</module>
     </modules>
 
     <properties>
@@ -57,6 +59,12 @@
                 <artifactId>shiro-crypto</artifactId>
                 <version>${shiro.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-spring-boot-web-starter</artifactId>
+                <version>${shiro.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
